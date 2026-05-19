@@ -3,7 +3,6 @@ name: Daily News Digest
 on:
   schedule:
     # JST 7:00 = UTC 22:00（前日）
-    # ※ GitHub Actions のcronは数分〜十数分の遅延が発生することがあります
     - cron: '0 22 * * *'
   workflow_dispatch: {}   # Actions タブから手動実行も可能
 
@@ -25,8 +24,6 @@ jobs:
 
       - name: Run news digest
         env:
-          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
-          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          MAIL_TO:            ${{ secrets.MAIL_TO }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: npm start
