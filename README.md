@@ -4,7 +4,7 @@
 
 ## 概要
 
-8つの英語RSSフィードから過去24時間の記事を収集し、XRP / Crypto / AI / Tech の4カテゴリに分類して毎朝7時（JST）にTelegramへ送信します。LLM不要・完全無料で動作します。
+8つの英語RSSフィードから過去24時間の記事を収集し、XRP / Crypto / AI / Tech の4カテゴリに分類して毎朝6時（JST）にTelegramへ送信します。LLM不要・完全無料で動作します。
 
 ## 機能
 
@@ -13,7 +13,7 @@
 - **プロモーション記事フィルタ** — 広告・クーポン・セール系の記事を自動除外
 - **重複排除** — 同一URLの記事は1件のみ表示
 - **Telegram配信** — Bot APIでHTMLフォーマットのメッセージを送信
-- **GitHub Actions自動実行** — 毎朝7時（JST）にcronで起動
+- **GitHub Actions自動実行** — 毎朝6時（JST）にcronで起動
 
 ## 配信イメージ
 
@@ -94,7 +94,7 @@ TelegramにBotからメッセージが届けば成功です。
 [.github/workflows/daily-news.yml](.github/workflows/daily-news.yml) の cron 式を編集します。
 
 ```yaml
-- cron: '0 22 * * *'  # UTC 22:00 = JST 7:00
+- cron: '0 21 * * *'  # UTC 21:00 = JST 6:00
 ```
 
 | 送信時刻（JST） | cron式（UTC） |
