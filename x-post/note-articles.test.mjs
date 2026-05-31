@@ -17,6 +17,7 @@ test('各記事が必須フィールドを持つ', () => {
     assert.equal(typeof a.id, 'string', `id文字列: ${JSON.stringify(a)}`);
     assert.equal(typeof a.title, 'string');
     assert.equal(typeof a.url, 'string');
+    // TODO(運用): url が REPLACE プレースホルダのままの場合は実URLに差し替えること (x-post/README.md セットアップ手順参照)
     assert.ok(a.url.startsWith('https://'), `httpsで始まる: ${a.url}`);
     assert.ok(Array.isArray(a.tags));
     assert.equal(typeof a.sensitive, 'boolean');
