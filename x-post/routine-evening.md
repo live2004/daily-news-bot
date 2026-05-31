@@ -19,7 +19,7 @@
 - 政治・法的トピックは断定を避け、リテラシー/リスクヘッジの観点に寄せる。
 
 ## Step 3: 文字数検証
-  node -e "const t=process.argv[2];console.log([...t].length)" "<夜便本文>"
+  node -e "const t=process.argv[1];console.log([...t].length)" "<夜便本文>"
 140超ならリライト（最大3回）。収まらなければ「⚠️要短縮」を付ける。
 
 ## Step 4: Telegram送信

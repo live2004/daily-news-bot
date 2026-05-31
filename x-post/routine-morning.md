@@ -35,7 +35,7 @@ Telegram に「⚠️ note-articles.json のURLが未設定です。x-post/READM
 
 ## Step 4: 文字数検証（決定的チェック）
 各ポスト本文について、文字数をコマンドで実測する:
-  node -e "const t=process.argv[2];console.log([...t].length)" "<ポスト本文>"
+  node -e "const t=process.argv[1];console.log([...t].length)" "<ポスト本文>"
 140 を超える場合はリライトして再測定（最大3回）。3回で収まらなければ本文先頭に「⚠️要短縮」を付けて送る。
 
 ## Step 5: Telegram送信
