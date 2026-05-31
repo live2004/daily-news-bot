@@ -5,7 +5,8 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "build": "tsc",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"x-post/*.test.mjs\""
   },
   "dependencies": {
     "dotenv": "^16.0.0",
