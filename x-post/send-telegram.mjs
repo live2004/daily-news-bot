@@ -19,6 +19,7 @@ export async function sendTelegram(text) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ chat_id: chatId, text }),
   });
+  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
   const json = await res.json();
   if (!json.ok) throw new Error(`Telegram送信失敗: ${JSON.stringify(json)}`);
   return json;
