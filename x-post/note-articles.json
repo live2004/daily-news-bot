@@ -1,10 +1,31 @@
 {
   "articles": [
     {
+      "id": "kobe-rice-coupon",
+      "title": "神戸市は今すぐ『お米券郵送』に切り替えよ ── 垂水フードサポート神戸で目撃した、市民の半日を奪う久元市政の愚策",
+      "url": "https://note.com/unique_shrew8980/n/n5e295ebed6e1",
+      "tags": ["政治", "社会", "神戸市"],
+      "sensitive": true
+    },
+    {
       "id": "tachibana-200days",
       "title": "これが法治国家か──\"名誉毀損\"で200日。立花孝志氏が拘置所から出られない本当の理由",
       "url": "https://note.com/unique_shrew8980/n/nd880a0fc7347",
       "tags": ["政治", "リテラシー", "法的トピック", "社会"],
+      "sensitive": true
+    },
+    {
+      "id": "whistleblower-icrecorder",
+      "title": "「裏切り者」と呼ばれた日から──公益通報で潰されかけた私が、ICレコーダー1台で人生を取り戻すまでの全記録",
+      "url": "https://note.com/unique_shrew8980/n/nc37a0eb559da",
+      "tags": ["キャリア防衛", "リスクヘッジ", "リテラシー", "副業・ライフハック"],
+      "sensitive": true
+    },
+    {
+      "id": "hyogo-assembly-next",
+      "title": "兵庫知事選で終わりじゃない。本丸は、まだ議会にいる",
+      "url": "https://note.com/unique_shrew8980/n/n3f7a27c65ae7",
+      "tags": ["政治", "兵庫県問題", "社会"],
       "sensitive": true
     },
     {
@@ -15,18 +36,81 @@
       "sensitive": true
     },
     {
-      "id": "btc-indicators-0530",
-      "title": "【5/30】暗号資産のプロが注目する3つの指標から紐解く、ビットコインの現在地と来月の展望",
-      "url": "https://note.com/unique_shrew8980/n/n1744c25437ce",
-      "tags": ["暗号資産", "投資", "マクロ", "AI・DX"],
+      "id": "hyogo-voice-silenced",
+      "title": "なぜ彼らは、そこまでして声を消したかったのか〜兵庫の街頭で見た、民主主義の壊し方〜",
+      "url": "https://note.com/unique_shrew8980/n/nc2adcd0d31fb",
+      "tags": ["政治", "兵庫県問題", "社会"],
+      "sensitive": true
+    },
+    {
+      "id": "hyogo-tv-hidden",
+      "title": "テレビが消した「私たちの兵庫県」",
+      "url": "https://note.com/unique_shrew8980/n/n43046e17b47f",
+      "tags": ["政治", "兵庫県問題", "メディア"],
+      "sensitive": true
+    },
+    {
+      "id": "claude-code-news-bot",
+      "title": "コードは書けるけどClaude Codeは初挑戦。2日で\"毎朝ニュースが届く無料ボット\"を作ったら、LLMすら要らなかった",
+      "url": "https://note.com/unique_shrew8980/n/nfff71661f2c7",
+      "tags": ["AI・DX", "副業・ライフハック", "エンジニア"],
       "sensitive": false
     },
     {
-      "id": "whistleblower-icrecorder",
-      "title": "「裏切り者」と呼ばれた日から──公益通報で潰されかけた私が、ICレコーダー1台で人生を取り戻すまでの全記録",
-      "url": "https://note.com/unique_shrew8980/n/nc37a0eb559da",
-      "tags": ["キャリア防衛", "リスクヘッジ", "リテラシー", "副業・ライフハック"],
+      "id": "workplace-record-practice",
+      "title": "壊れる前に、記録せよ──職場の理不尽を証拠に変える実践ノート",
+      "url": "https://note.com/unique_shrew8980/n/n26ed7457ff22",
+      "tags": ["労働問題", "キャリア防衛", "リスクヘッジ"],
+      "sensitive": false
+    },
+    {
+      "id": "workplace-isolated-record",
+      "title": "無視され、孤立させられ、それでも私は記録し続けた",
+      "url": "https://note.com/unique_shrew8980/n/n85a88f53fa87",
+      "tags": ["労働問題", "キャリア防衛"],
       "sensitive": true
+    },
+    {
+      "id": "myna-license-scare",
+      "title": "免許更新で「マイナ免許証一本化」を選んだ私が、30分〜1時間の無免許状態に肝を冷やした話",
+      "url": "https://note.com/unique_shrew8980/n/nd0c16e1c1476",
+      "tags": ["社会", "リテラシー"],
+      "sensitive": false
+    },
+    {
+      "id": "crypto-honeypot-4000man",
+      "title": "【実録】深夜2時、画面の中の「4000万円」が消えた。暗号資産ハニーポットの恐怖と、僕が草コインを卒業する理由",
+      "url": "https://note.com/unique_shrew8980/n/na072ecaaaba1",
+      "tags": ["暗号資産", "投資", "リスクヘッジ"],
+      "sensitive": false
+    },
+    {
+      "id": "nhk-cancel-ritual",
+      "title": "昭和の遺物か、解約阻止の「闇」か。チューナーレステレビに買い替えた私が、NHK解約で体験した不条理な儀式の全貌",
+      "url": "https://note.com/unique_shrew8980/n/n5efd5bac8825",
+      "tags": ["社会", "消費者", "リテラシー"],
+      "sensitive": false
+    },
+    {
+      "id": "xrp-scam-800man",
+      "title": "【実録】XRP爆上げの絶頂から、詐欺で全財産「800万円」を失い絶望の淵に立たされるまで",
+      "url": "https://note.com/unique_shrew8980/n/n5bf95608bef3",
+      "tags": ["暗号資産", "投資", "リスクヘッジ"],
+      "sensitive": false
+    },
+    {
+      "id": "21coin-community-collapse",
+      "title": "【実録】仮想通貨コミュニティの崩壊。日本産仮想通貨21coinの光と影。熱狂の裏で起きていたこと",
+      "url": "https://note.com/unique_shrew8980/n/na8b440905bde",
+      "tags": ["暗号資産", "投資"],
+      "sensitive": false
+    },
+    {
+      "id": "mental-health-certificate",
+      "title": "【実体験】精神障害者保健福祉手帳は、持ってるだけで心が軽くなる「お守り」でした。",
+      "url": "https://note.com/unique_shrew8980/n/n8e61039cf4ea",
+      "tags": ["統合失調症", "社会", "メンタルヘルス"],
+      "sensitive": false
     }
   ]
 }

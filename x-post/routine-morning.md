@@ -3,7 +3,7 @@
 [ここに persona.md の本文を貼り付ける]
 <!-- /persona -->
 
-# 本日のタスク（朝便・昼便の2案を生成）
+# 本日のタスク（朝便・昼便の各2〜3案を生成）
 まず現在の日本時間の日付を取得する:
   node -e "console.log(new Date().toLocaleDateString('ja-JP',{timeZone:'Asia/Tokyo'}))"
 これを [Current_Date] とする。
@@ -24,32 +24,50 @@ https://raw.githubusercontent.com/live2004/daily-news-bot/main/x-post/note-artic
 取得したカタログのいずれかの url フィールドに「REPLACE」が含まれる場合は昼便の生成を中止し、
 Telegram に「⚠️ note-articles.json のURLが未設定です。x-post/README.md のセットアップ手順に従ってください。」と通知して終了すること。
 
-## Step 3: 執筆
-1) 朝便【X完結型・ライフハックTips】(8:00想定)
-   - 通勤中に読んで仕事の効率・モチベが上がる有益な知見。Focused_Categories に準じた具体Tips。
-   - X完結（URLなし）。140字以内。
-2) 昼便【note誘導型】(12:00想定・スレッド)
-   - 当日のトレンドに最も合致する記事をカタログから1つ選定。
-   - 親ポスト: 記事が解決する「課題」と得られる「ベネフィット」を明示する誘導文（URLなし・140字以内）。
-   - 子ポスト(リプライ): 選定記事の url のみ。
+## Step 3: 執筆（各2〜3案）
+### 朝便【X完結型・ライフハックTips】(8:00想定) — 2〜3案
+各案はそれぞれ異なるトピック・切り口で執筆すること。
+- 通勤中に読んで仕事の効率・モチベが上がる有益な知見。Focused_Categories に準じた具体Tips。
+- X完結（URLなし）。文字数制限なし（Xプレミアム加入済み）。
 
-## Step 4: 文字数検証（決定的チェック）
-各ポスト本文について、文字数をコマンドで実測する:
-  node -e "const t=process.argv[1];console.log([...t].length)" "<ポスト本文>"
-140 を超える場合はリライトして再測定（最大3回）。3回で収まらなければ本文先頭に「⚠️要短縮」を付けて送る。
+### 昼便【note誘導型】(12:00想定・スレッド) — 2〜3案
+各案は異なる記事をカタログから選定し、異なる訴求角度で書くこと。
+- 親ポスト: 記事が解決する「課題」と得られる「ベネフィット」を明示する誘導文（URLなし）。
+- 子ポスト(リプライ): 選定記事の url のみ。
 
-## Step 5: Telegram送信
-以下を実行して下書きを送る（朝便・昼便をまとめて1メッセージ、子ポストURLも明記）:
+## Step 4: Telegram送信
+以下を実行して下書きを送る（朝便・昼便の全案をまとめて1メッセージ）:
   curl -s "https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/sendMessage" \
     --data-urlencode "chat_id=<TELEGRAM_CHAT_ID>" \
+    --data-urlencode "disable_web_page_preview=true" \
     --data-urlencode "text=$(cat <<'EOT'
 🗓 [Current_Date] 朝便（X完結型・ライフハックTips）
-<朝便本文>
-— 文字数: <n>字
+
+【案1】
+<朝便 案1本文>
+
+【案2】
+<朝便 案2本文>
+
+【案3】（任意）
+<朝便 案3本文（生成した場合のみ）>
+
+━━━━━━━━━━━━━━━━
 
 🗓 [Current_Date] 昼便（note誘導型・スレッド）
-<昼便 親ポスト本文>
-— 文字数: <n>字
+
+【案1】
+<昼便 案1 親ポスト本文>
+↳ 子ポスト(リプライ): <記事URL>
+／誘導記事: <記事id>
+
+【案2】
+<昼便 案2 親ポスト本文>
+↳ 子ポスト(リプライ): <記事URL>
+／誘導記事: <記事id>
+
+【案3】（任意）
+<昼便 案3 親ポスト本文（生成した場合のみ）>
 ↳ 子ポスト(リプライ): <記事URL>
 ／誘導記事: <記事id>
 EOT
