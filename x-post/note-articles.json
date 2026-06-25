@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "id": "movie-hendo-hodo",
+      "title": "「沈黙」を選ぶテレビ局を描く——映画『偏向報道』が問いかける、報道を〝見極める力〟",
+      "url": "https://note.com/unique_shrew8980/n/n54408ebacdd9",
+      "tags": ["メディア", "リテラシー", "社会"],
+      "sensitive": false
+    },
+    {
+      "id": "nafusa-shortage-kappaebi",
+      "title": "白黒のかっぱえびせんが教えてくれること——「ナフサ不足」で日本にいま何が起きているのか",
+      "url": "https://note.com/unique_shrew8980/n/n3248e40ffb9e",
+      "tags": ["社会", "経済", "リテラシー"],
+      "sensitive": false
+    },
+    {
+      "id": "bank-frozen-funeral",
+      "title": "親が亡くなった日、銀行口座は凍りつく——「葬儀トラブル」と「親の終活」、知らないと数十万円損する話を超初心者向けに全部ひらいてみた",
+      "url": "https://note.com/unique_shrew8980/n/nbabb17286a18",
+      "tags": ["社会", "リテラシー", "副業・ライフハック"],
+      "sensitive": false
+    },
+    {
+      "id": "yamada-edion-merger",
+      "title": "2.5兆円の「家電1強」が生まれる日——ヤマダ×エディオン統合で、家電メーカーに何が起きるのか",
+      "url": "https://note.com/unique_shrew8980/n/nbbc0f8953cb9",
+      "tags": ["社会", "経済", "リテラシー"],
+      "sensitive": false
+    },
+    {
+      "id": "manjaro-diet-crackdown",
+      "title": "「マンジャロでやせた」が摘発される時代に──糖尿病薬ダイエットの何が問題なのか",
+      "url": "https://note.com/unique_shrew8980/n/n45f17e3b32a8",
+      "tags": ["社会", "メンタルヘルス", "リテラシー"],
+      "sensitive": false
+    },
+    {
+      "id": "android-drop-june2026",
+      "title": "ついにiPhoneへAirDropで送れる！なりすまし電話も自動で見抜く——2026年6月「Android Drop」全7機能まるわかりガイド",
+      "url": "https://note.com/unique_shrew8980/n/n92290a119cfa",
+      "tags": ["AI・DX", "エンジニア"],
+      "sensitive": false
+    },
+    {
+      "id": "hermes-agent-desktop",
+      "title": "「ターミナル不要」でついに誰でも使える！Hermes Agentデスクトップアプリ完全ガイド【2026年6月最新】",
+      "url": "https://note.com/unique_shrew8980/n/nd6bcdf001c6a",
+      "tags": ["AI・DX", "エンジニア"],
+      "sensitive": false
+    },
+    {
+      "id": "openclaw-scout-microsoft",
+      "title": "Microsoftが乗り換えた「OpenClaw」と新エージェント「Scout（スカウト）」のこれから",
+      "url": "https://note.com/unique_shrew8980/n/n9dfc116928cf",
+      "tags": ["AI・DX", "エンジニア"],
+      "sensitive": false
+    },
+    {
+      "id": "claude-code-personalize",
+      "title": "Claude Codeを自分専用に育てる！対話履歴からパーソナライズする完全ガイド",
+      "url": "https://note.com/unique_shrew8980/n/n7f9a66064078",
+      "tags": ["AI・DX", "エンジニア"],
+      "sensitive": false
+    },
+    {
       "id": "kobe-rice-coupon",
       "title": "神戸市は今すぐ『お米券郵送』に切り替えよ ── 垂水フードサポート神戸で目撃した、市民の半日を奪う久元市政の愚策",
       "url": "https://note.com/unique_shrew8980/n/n5e295ebed6e1",
@@ -22,39 +85,11 @@
       "sensitive": true
     },
     {
-      "id": "hyogo-assembly-next",
-      "title": "兵庫知事選で終わりじゃない。本丸は、まだ議会にいる",
-      "url": "https://note.com/unique_shrew8980/n/n3f7a27c65ae7",
-      "tags": ["政治", "兵庫県問題", "社会"],
-      "sensitive": true
-    },
-    {
-      "id": "kenmin-literacy",
-      "title": "もう騙されない。情報操作を見抜く「県民リテラシー」",
-      "url": "https://note.com/unique_shrew8980/n/n2bf804118126",
-      "tags": ["リテラシー", "情報操作", "政治"],
-      "sensitive": true
-    },
-    {
-      "id": "hyogo-voice-silenced",
-      "title": "なぜ彼らは、そこまでして声を消したかったのか〜兵庫の街頭で見た、民主主義の壊し方〜",
-      "url": "https://note.com/unique_shrew8980/n/nc2adcd0d31fb",
-      "tags": ["政治", "兵庫県問題", "社会"],
-      "sensitive": true
-    },
-    {
       "id": "hyogo-tv-hidden",
       "title": "テレビが消した「私たちの兵庫県」",
       "url": "https://note.com/unique_shrew8980/n/n43046e17b47f",
       "tags": ["政治", "兵庫県問題", "メディア"],
       "sensitive": true
-    },
-    {
-      "id": "claude-code-news-bot",
-      "title": "コードは書けるけどClaude Codeは初挑戦。2日で\"毎朝ニュースが届く無料ボット\"を作ったら、LLMすら要らなかった",
-      "url": "https://note.com/unique_shrew8980/n/nfff71661f2c7",
-      "tags": ["AI・DX", "副業・ライフハック", "エンジニア"],
-      "sensitive": false
     },
     {
       "id": "workplace-record-practice",
@@ -71,46 +106,39 @@
       "sensitive": true
     },
     {
-      "id": "myna-license-scare",
-      "title": "免許更新で「マイナ免許証一本化」を選んだ私が、30分〜1時間の無免許状態に肝を冷やした話",
-      "url": "https://note.com/unique_shrew8980/n/nd0c16e1c1476",
-      "tags": ["社会", "リテラシー"],
+      "id": "iphone-18-price-prediction",
+      "title": "iPhone 18はいくらになる？メモリ高騰・A20チップ・折りたたみモデルまで価格予想を完全解説【2026年最新】",
+      "url": "https://note.com/unique_shrew8980/n/ncd50e85723af",
+      "tags": ["AI・DX", "テクノロジー"],
       "sensitive": false
     },
     {
-      "id": "crypto-honeypot-4000man",
-      "title": "【実録】深夜2時、画面の中の「4000万円」が消えた。暗号資産ハニーポットの恐怖と、僕が草コインを卒業する理由",
-      "url": "https://note.com/unique_shrew8980/n/na072ecaaaba1",
-      "tags": ["暗号資産", "投資", "リスクヘッジ"],
+      "id": "instagram-plus-newfeatures",
+      "title": "インスタの新サブスク「Instagram Plus」月額319円は「買い」なのか──11の新機能とメリット・デメリットを正直に全部書く【2026年6月最新】",
+      "url": "https://note.com/unique_shrew8980/n/nfbdf85337f85",
+      "tags": ["AI・DX", "テクノロジー"],
       "sensitive": false
     },
     {
-      "id": "nhk-cancel-ritual",
-      "title": "昭和の遺物か、解約阻止の「闇」か。チューナーレステレビに買い替えた私が、NHK解約で体験した不条理な儀式の全貌",
-      "url": "https://note.com/unique_shrew8980/n/n5efd5bac8825",
-      "tags": ["社会", "消費者", "リテラシー"],
+      "id": "chatgpt-aria-superapp",
+      "title": "ChatGPTが「アプリの中のアプリ」へ──OpenAIスーパーアプリ化（コードネーム「Aria」）完全ガイド【2026年6月最新】",
+      "url": "https://note.com/unique_shrew8980/n/n46252e09a433",
+      "tags": ["AI・DX", "エンジニア"],
       "sensitive": false
     },
     {
-      "id": "xrp-scam-800man",
-      "title": "【実録】XRP爆上げの絶頂から、詐欺で全財産「800万円」を失い絶望の淵に立たされるまで",
-      "url": "https://note.com/unique_shrew8980/n/n5bf95608bef3",
-      "tags": ["暗号資産", "投資", "リスクヘッジ"],
+      "id": "disability-pension-tips",
+      "title": "「どうせ無理」と諦める前に。精神障害の私が障害年金2級をもらえた、ちょっとしたコツ。",
+      "url": "https://note.com/unique_shrew8980/n/n173bfa0d80ac",
+      "tags": ["メンタルヘルス", "社会", "リテラシー"],
       "sensitive": false
     },
     {
-      "id": "21coin-community-collapse",
-      "title": "【実録】仮想通貨コミュニティの崩壊。日本産仮想通貨21coinの光と影。熱狂の裏で起きていたこと",
-      "url": "https://note.com/unique_shrew8980/n/na8b440905bde",
-      "tags": ["暗号資産", "投資"],
-      "sensitive": false
-    },
-    {
-      "id": "mental-health-certificate",
-      "title": "【実体験】精神障害者保健福祉手帳は、持ってるだけで心が軽くなる「お守り」でした。",
-      "url": "https://note.com/unique_shrew8980/n/n8e61039cf4ea",
-      "tags": ["統合失調症", "社会", "メンタルヘルス"],
-      "sensitive": false
+      "id": "thought-theft-schizophrenia",
+      "title": "【本当にあった怖い話】本当は統合失調症じゃない！私の身に起きた「思考盗聴」。それは脳への直接攻撃だったのか、それとも…",
+      "url": "https://note.com/unique_shrew8980/n/nde14c8b99415",
+      "tags": ["メンタルヘルス", "統合失調症", "リテラシー"],
+      "sensitive": true
     }
   ]
 }
