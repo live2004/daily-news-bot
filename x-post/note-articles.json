@@ -139,6 +139,20 @@
       "url": "https://note.com/unique_shrew8980/n/nde14c8b99415",
       "tags": ["メンタルヘルス", "統合失調症", "リテラシー"],
       "sensitive": true
+    },
+    {
+      "id": "gpt56-stealth-test",
+      "title": "Claude Fable 5超え！？ChatGPTが「こっそり」賢くなっていた─GPT-5.6ステルステストの真相【2026年6月】",
+      "url": "https://note.com/unique_shrew8980/n/n6c65b945a208",
+      "tags": ["AI・DX", "エンジニア"],
+      "sensitive": false
+    },
+    {
+      "id": "sakana-ai-explainer",
+      "title": "日本発「逆張りAI」Sakana AIとは？──GPT・Gemini・Claudeと何が違うのか、メリット・デメリットを正直に解説【2026年6月最新】",
+      "url": "https://note.com/unique_shrew8980/n/n762b840c72a7",
+      "tags": ["AI・DX", "エンジニア"],
+      "sensitive": false
     }
   ]
 }
